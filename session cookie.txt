@@ -1,0 +1,31 @@
+JPS Servlet -> fe,be
+
+Strust -> fe,be
+spring mvc -> fe,be -> xml <bean>
+spring boot -> be -> lam tu dong kha nhieu -> annotation @Bean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+session xử lí khi có 2 người dùng đăng nhập. 1 ông 12h đến 13h, 1 ông đăng nhập 12h30. thì tìm session cho đúng như thế nào?
+tìm, làm theo video, debug, session đi riêng cũng xác thực được, cookie đi riêng cũng đc, tại sao nó đi với nhau?
+
+luồng xác thực auth như nào, debug ?
+
+tại sao phải lưu jwt trong database
+
