@@ -1,0 +1,6 @@
+kafka -> event streaming platform
+rabbitmq -> mess broker
+
+micro
+
+-> design pattern
