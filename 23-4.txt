@@ -1,0 +1,6 @@
+các loại join lấy ví dụ
+index và lấy ví dụ
+partition và lấy ví dụ
+trigger và lấy ví dụ
+
+mô hình microservice và monolithic

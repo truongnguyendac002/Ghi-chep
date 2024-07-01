@@ -1,0 +1,9 @@
+Đối với Spring : Dependency Injection , IOC container , ApplicationContext , Bean , Bean scope ,
+	Http Method , Request body , Path variable , Request Param.
+
+Chữ kí số và cách implement chữ kí số trong java.
+
+Design Pattern : Xem cho anh các design pattern như Builder , Factory , Singleton , Command.
+
+DB : Lên mạng thực hành viết native query nhiều nhé , anh thấy hai em dùng qua JPA chưa hiểu bản chất của native query. 
+	Xem thêm về index và partition trong Oracle.
