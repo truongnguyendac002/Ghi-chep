@@ -1,2 +1,4 @@
 Jpa, hibernate là gì
 java là tham chiếu hay tham trị
+oneToMany hoạt động ntn
+save(), 

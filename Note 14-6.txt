@@ -1,0 +1,5 @@
+1. Message source spring boot
+2. ExecutorService avic, Runnable
+3. các design pattern singleton, factory, command, builderder
+4. parallelStream(), synchronizedList
+5. ApplicationContext IOC
