@@ -1,1 +1,12 @@
+Luồng mua SKU có khuyến mãi thì xử lý thế nào?
+1. BEGIN TRANSACTION: tạo Transaction PENDING_PAYMENT -> COMMIT luôn để idempotent key không sinh giao dịch mới, và nếu chưa lỗi thì xử lý lại giao dịch này tránh sinh dublicate giao dịch
+2. BEGIN TRANSACTION: 
+  LOCK avaiable, helding của promo_program đó lại
+  Check các điều kiện: thông tin request của đơn có hợp lệ không -> lỗi thì roll back cả cụm
+  đạt -> update avaiable, helding của promo_program , 
+  giữ 1 code từ kho merchant
+  Lưu dữ liệu các bảng sau đó
+  -> COMMIT
 
+3. IPN về:
+  BEGIN TRANSACTION 
